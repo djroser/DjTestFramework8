@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'DjTestFramework8/Classes/**/*'
+  s.vendored_frameworks = 'DjTestFramework8'
+  
+  #s.source_files = 'DjTestFramework8/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DjTestFramework8' => ['DjTestFramework8/Assets/*.png']
