@@ -1,0 +1,6 @@
+framework module DjTestFramework8 {
+  umbrella header "DjTestFramework8.h"
+
+  export *
+  module * { export * }
+}
